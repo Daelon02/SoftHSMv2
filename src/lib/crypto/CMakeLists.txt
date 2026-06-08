@@ -36,6 +36,11 @@ set(SOURCES AESKey.cpp
             MLDSAPublicKey.cpp
             MLDSAUtil.cpp
             RSAMechanismParam.cpp
+            SLHDSAMechanismParam.cpp
+            SLHDSAParameters.cpp
+            SLHDSAPrivateKey.cpp
+            SLHDSAPublicKey.cpp
+            SLHDSAUtil.cpp
             RSAParameters.cpp
             RSAPrivateKey.cpp
             RSAPublicKey.cpp
@@ -81,6 +86,10 @@ if(WITH_OPENSSL)
                         OSSLMLDSAKeyPair.cpp
                         OSSLMLDSAPrivateKey.cpp
                         OSSLMLDSAPublicKey.cpp
+                        OSSLSLHDSA.cpp
+                        OSSLSLHDSAKeyPair.cpp
+                        OSSLSLHDSAPrivateKey.cpp
+                        OSSLSLHDSAPublicKey.cpp
                         OSSLRNG.cpp
                         OSSLRSA.cpp
                         OSSLRSAKeyPair.cpp
